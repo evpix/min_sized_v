@@ -1,5 +1,6 @@
-# Minimize binary size in V
-Guide to minimizing V language binary size on Linux
+# Minimizing V (vlang) Binary Size
+
+This repository demonstrates how to minimize the size of a V binary.
 
 V compiles to C and by default produces relatively large binaries due to the included runtime, libc linkage, and debug information. With the right flags and techniques, you can significantly reduce the size to tens or even single-digit kilobytes.
 
